@@ -1,0 +1,11 @@
+{
+    "name": "Chrome extension tutorial",
+    "version": "1.0",
+    "description": "Learning how to make a chrome extension in my free time at office",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
